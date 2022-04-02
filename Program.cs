@@ -6,7 +6,7 @@ Console.Write("Digite o numerador......: ");
 Console.WriteLine("Digite o denominador......: ");
     denominador = Convert.ToDouble(Console.ReadLine()); 
 
-    if (numerador == 0)
+    if (denominador == 0)
     {
         Console.WriteLine ("Não pode ser dividido por zero.");
     }
@@ -15,5 +15,5 @@ Console.WriteLine("Digite o denominador......: ");
     {
     quociente = numerador / denominador;
 
-    Console.WriteLine($"{numerador:N1} dividido por {denominador:N1} é {quociente:N1}.");
+    Console.WriteLine($"{numerador:N1} diSvidido por {denominador:N1} é {quociente:N1}.");
     }
